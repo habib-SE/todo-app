@@ -1,0 +1,41 @@
+
+  /* src/components/todo/Todo.css */
+.todo-form {
+    max-width: 400px; /* Decrease the width */
+    margin: 0 auto; /* Center the form */
+  }
+  
+  textarea {
+    width: 100%; /* Ensure textarea takes full width */
+  }
+  
+  .btn {
+    width: auto; /* Set button width to auto */
+    margin-top: 10px; /* Add some margin above the button */
+  }
+  .todo-cards {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping of cards to the next line */
+    justify-content: center; /* Center align the cards */
+    gap: 20px; /* Add space between cards */
+  }
+  
+  .todo-card {
+    width: 100%; /* Set width to 100% to fill the container */
+    max-width: 300px; /* Decrease maximum width to 300px */
+    background-color: #f8f9fa; /* Light background */
+    padding: 20px;
+    border-radius: 0.375rem; /* Medium rounded corners */
+    border: 1px solid #dee2e6; /* Light border */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px; /* Add margin for spacing */
+  }
+  
+  .todo-card h4 {
+    margin: 0 0 10px;
+  }
+  
+  .todo-card p {
+    margin: 0 0 15px;
+  }
+  

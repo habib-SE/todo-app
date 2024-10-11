@@ -1,0 +1,18 @@
+.user-png{
+    width: 30px;
+    height: 30px;
+}
+.navbar-brand{
+    color: brown;
+}
+.btn-nav {
+    background-color: brown;
+    color: white; /* Text color to make it readable */
+    padding: 0.5rem 1rem; /* Add padding if needed */
+    border-radius: 4px; /* Optional: adds rounded corners */
+  }
+  
+  .btn-nav:hover {
+    background-color: #8b4513; /* Slightly darker shade for hover effect */
+  }
+  

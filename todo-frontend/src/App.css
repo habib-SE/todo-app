@@ -1,0 +1,14 @@
+/* src/App.css */
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .container {
+    max-width: 1200px; /* Adjust as needed */
+  }
+  
+  .flex-grow-1 {
+    flex-grow: 1;
+  }
+  
